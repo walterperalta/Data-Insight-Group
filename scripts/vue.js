@@ -53,7 +53,7 @@ Vue.createApp({
                     this.camara = data.results[0].members
                     this.miembros_10 = Math.round(this.camara.length * 0.1)
                     this.camaraAuxiliar = this.camara
-                    console.log(this.camara)
+                    // console.log(this.camara)
                 })
     },
     methods : {
