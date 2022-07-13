@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/custom.css">
+</head>
+
+<body>
+  <header class="d-flex row flex-wrap align-items-center bg-primary">
+    <img src="./images/graphmagnifier_118081.png" alt="lupa" class="col-2 img-fluid">
+    <h1 class="col-6 ms-3">Data Insight Group</h1>
+    <a class="col-3" href="info@datainsightgroup.net" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="28" height="28"
+        viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <polyline points="3 7 12 13 21 7" />
+      </svg> info@datainsightgroup.net
+    </a>
+    <ul class="nav nav-pills ps-3">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Congress 113</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-dark" href="./house.html">House</a></li>
+          <li><a class="dropdown-item text-dark" href="./senate.html">Senate</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+          aria-expanded="false">Attendance</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-dark" href="./attendace_house.html">House</a></li>
+          <li><a class="dropdown-item text-dark" href="#">Senate</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Party
+          Loyalty</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-dark" href="./loyalty_house.html">House</a></li>
+          <li><a class="dropdown-item text-dark" href="./loyalty_senate.html">Senate</a></li>
+        </ul>
+      </li>
+    </ul>
+  </header>
+
+  <main class="d-flex row align-items-start p-4 justify-content-between" id="app">
+    <section>
+      <h2 class="col-12">About us</h2>
+    </section>
+    <section class="col-9">
+      <p>Openness, accountability, and honesty define government transparency. In a free society,
+        transparency is government's obligation to share information with citizens. It is at the heart
+        of how citizens hold their public officials accountable. Here at Data Insight Group we believe
+        that government should be transparent.</p>
+      <p>Governments exist to serve the people. Information on how officials conduct the public business
+        and spend taxpayer money must be readily available and easily understood. This transparency
+        allows good and just governance. Transparency promotes accountability and provides information
+        for citizens about what their Government is doing.</p>
+      <p>We also believe that government should be participatory. Public engagement enhances the
+        Government's effectiveness and improves the quality of its decisions. Knowledge is widely
+        dispersed in society, and public officials benefit from having access to that dispersed
+        knowledge. We invite you to use our site to become actively engaged in American government.</p>
+      <p>Data Insight Group works to disclose information in forms that the public can readily find and
+        use. We solicit public feedback to identify information of greatest use to the public.</p>
+    </section>
+    <img src="./images/graphmagnifier_118081.png" alt="lupa" class="col-4 img-fluid pe-3">
+    <button @click="leerMas" id="myBtn" class="btn btn-primary col-2">
+      Read more
+    </button>
+    <section id="more">
+      <div class="accordion-body"> In the West, the idea that government should be open to
+        public scrutiny and susceptible to public opinion dates back at least to the time of
+        the Enlightenment, when many philosophes made an attack on absolutist doctrine of
+        state secrecy, a core part of their intellectual project. The passage of formal
+        legislative instruments to this end can also be traced to this time with Sweden, for
+        example, (which then included Finland as a Swedish-governed territory) enacting free
+        press legislation as part of its constitution (Freedom of the Press Act, 1766). This
+        approach, and that of the philosophes more broadly, is strongly related to recent
+        historiography on the eighteenth-century public sphere.</div>
+      <div class="accordion-body"> Influenced by Enlightenment thought, the revolutions in
+        America (1776) and France (1789), freedom of the press enshrined provisions and
+        requirements for public budgetary accounting and freedom of the press in
+        constitutional articles. In the nineteenth century, attempts by Metternichean
+        statesmen to row back on these measures were vigorously opposed by a number of
+        eminent liberal politicians and writers, Bentham, Mill and Acton prominent among the
+        latter.</div>
+      <div class="accordion-body"> Open government is widely seen to be a key hallmark of
+        contemporary democratic practice and is often linked to the passing of freedom of
+        information legislation. Scandinavian countries claim to have adopted the first
+        freedom of information legislation, dating the origins of its modern provisions to
+        the eighteenth century and Finland continuing the presumption of openness after
+        gaining independence in 1917, passing its Act on Publicity of Official Documents in
+        1951 (superseded by new legislation in 1999).</div>
+      <div class="accordion-body"> The United States passed its Freedom of Information Act
+        (FOIA) in 1966, FOIAs, Access to Information Acts (AIAs) or equivalent laws were
+        passed in Denmark and Norway in 1970.</div>
+      </div>
+    </section>
+    </p>
+
+  </main>
+  <footer class="d-flex justify-content-center align-items-center">
+    <p>2021 Data Insight Group | All Rights Reserved</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="./scripts/vue.js"></script>
+</body>
+
+</html>
